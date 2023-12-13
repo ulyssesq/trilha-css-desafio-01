@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@400;700;900&family=Roboto:wght@100;300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-color: #31A8DB;
+  --main-transparency-color: #31A8DB80;
+  --header-gradient-dark-color: rgba(0, 0, 0, .6);
+  --header-gradient-light-color: rgba(49, 168, 221, 0.2);
+  --background-logo-color: rgba(0, 0, 0, .2);
+  --letter-spacing-headings: 0.25rem;
+  --font-size-small: 1rem;
+  --font-size-regular: 2rem;
+  --font-size-large: 2.5rem;
+  --font-weight-light: 400;
+  --font-weight-regular: 700;
+  --font-weight-heavy: 900;
+}
+
+body {
+  background-color: #000;
+  font-family: Raleway;
+}
+
+p, div {
+  color: #FFF;
+}
