@@ -9,6 +9,7 @@
   --header-gradient-dark-color: rgba(0, 0, 0, .6);
   --header-gradient-light-color: rgba(49, 168, 221, 0.2);
   --background-logo-color: rgba(0, 0, 0, .2);
+  --text-color: #FFF;
   --letter-spacing-headings: 0.25rem;
   --font-size-small: 1rem;
   --font-size-regular: 2rem;
@@ -24,5 +25,5 @@ body {
 }
 
 p, div {
-  color: #FFF;
+  color: var(--text-color);
 }
